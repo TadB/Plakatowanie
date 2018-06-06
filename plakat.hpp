@@ -4,8 +4,11 @@
 
 unsigned plakatowanie(unsigned);
 void setArray(unsigned, Building[]);
+//funkcja znajdujaca minimalna wysokosc
 unsigned findMin(unsigned, Building[]);
-//maximum buildings having naigbours on the same level
-unsigned maxInRow(unsigned, Building[]);
+// funkcja szukajaca sasiadujacych budynkow
+unsigned maxInRow(unsigned, unsigned, Building[]);
+//funkcja nakleja plakat, zwaraca 1 jesli sie udalo
+int stickPoster(unsigned, unsigned, Building[]);
 
 #endif

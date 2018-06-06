@@ -9,8 +9,10 @@ public:
     void setHeight(unsigned);
     unsigned getHeight(void);
     void setLevel(unsigned);
+	//decrease level by given value
+	void decrLevel(unsigned);
     unsigned getLevel(void);
-    void setDestroyed(unsigned);
+    void setDestroyed(bool);
     unsigned getDestroyed(void);
 
 private:
