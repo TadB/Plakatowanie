@@ -15,11 +15,11 @@ void Building::setHeight(unsigned height){
 unsigned Building::getHeight(void){
     return this -> height;
 }
-void Building::setBLevel(unsigned bLevel){
-    this -> bLevel = bLevel;
+void Building::setLevel(unsigned bLevel){
+    this -> level = level;
 }
-unsigned Building::getBLevel(void){
-    return this -> bLevel;
+unsigned Building::getLevel(void){
+    return this -> level;
 }
 void Building::setDestroyed(unsigned destroyed){
     this -> destroyed = destroyed;

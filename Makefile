@@ -1,7 +1,7 @@
 PROG = plakatowanie
 CC=g++
 CPPFLAGS=-c -Wall
-OBJS= plakat.o main.o
+OBJS= plakat.o main.o building.o
 
 $(PROG) : $(OBJS)
 	$(CC) -o $(PROG) $(OBJS)

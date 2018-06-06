@@ -8,15 +8,15 @@ public:
     unsigned getWidth(void);
     void setHeight(unsigned);
     unsigned getHeight(void);
-    void setBLevel(unsigned);
-    unsigned getBLevel(void);
+    void setLevel(unsigned);
+    unsigned getLevel(void);
     void setDestroyed(unsigned);
     unsigned getDestroyed(void);
 
 private:
     unsigned width;
     unsigned height;
-    unsigned bLevel;
+    unsigned level;
     bool destroyed;
 };
 #endif
