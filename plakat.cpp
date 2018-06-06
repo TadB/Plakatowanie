@@ -4,7 +4,7 @@
 
 using namespace std;
 
-unsigned plakatowanie(unsigned n){
+unsigned startPoster(unsigned n){
 	Building *street = new Building[n];
 	setArray(n, street);
 	unsigned sum=0;
@@ -37,7 +37,6 @@ void setArray(unsigned n, Building array[]){
 	for(unsigned i = 0; i < n; ++i){
 		unsigned w, h;
 		cin>>w>>h;
-		cin>>h;
 		array[i].setWidth(w);
 		array[i].setHeight(h);
 		array[i].setLevel(h);

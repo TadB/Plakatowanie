@@ -2,7 +2,7 @@
 #define PLAKAT_H
 #include "building.hpp"
 
-unsigned plakatowanie(unsigned);
+unsigned startPoster(unsigned);
 void setArray(unsigned, Building[]);
 //funkcja znajdujaca minimalna wysokosc
 unsigned findMin(unsigned, Building[]);
