@@ -1,5 +1,5 @@
-#ifndef PLAKAT_H
-#define PLAKAT_H
+#ifndef PLAKAT_HPP
+#define PLAKAT_HPP
 #include "building.hpp"
 
 unsigned startPoster(unsigned);
